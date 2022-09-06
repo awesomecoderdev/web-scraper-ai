@@ -1,5 +1,9 @@
 <?php
-$url = "https://www.google.com/search?q=google search language query"; //&start=20
+$url = "https://www.google.com/search?q=awesome coder&hl=tr";
+/**
+ * &start=20 // per page
+ * &hl=de // country
+ **/
 $url = str_replace(" ", "+", $url);
 
 $content = file_get_contents($url);
